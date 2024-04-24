@@ -1,0 +1,65 @@
+
+footer
+{
+    background-color: orange;
+    text-align: center;
+}
+
+header
+{
+    background-color: lightpink;
+    text-align: center;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.contenedorImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+
+    width: 150px;
+    padding: 35px;
+    margin-left: 400px;
+}
+
+.div2{
+
+    width: 150px;
+    padding: 35px;
+    margin-left: 25px;
+}
+
+article img
+{
+    width: 250px;
+    border-collapse:collapse;
+}
+
+table,td,th
+{
+    /* PROPIEDADES */
+    /* Short Hand */
+   border: 1px solid black;
+   border-collapse:collapse ;
+   /* codigo largo */
+   /* border-width: 1px;
+   border-color: solid;
+   border-style: black; */
+
+   /* son los dos exactamente lo mismo */
+}
+
+td,th{
+    text-align: center;
+}
+
